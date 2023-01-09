@@ -1,0 +1,97 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Kalam', cursive;
+
+    background-image: url(./img/BackGround.jpg);    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+.contenedor { 
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    max-width: 550px;
+    text-align: center;
+    padding: 65px;
+    margin: 75px auto;   
+    border-radius: 25px;
+
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );   
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.contenedor h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.contenedor p{
+    font-size: 25px;
+    color: black; 
+}
+
+.resultados{
+    margin-bottom: 8%;
+}
+
+.resultados p{
+    margin: 5px 0 5px;
+}
+
+.resultados h2{
+    font-size: 55px;
+    line-height: 55px;
+    margin: -10px 0 10px;
+    color: black;
+}
+
+.resultados h5{
+    font-size: 25px;
+    margin: 2px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin: 0px 0 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;     
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Kalam', cursive; 
+}
+
+form input[type="submit"]{
+    width: 40%;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #193c74;     
+    border-radius: 0px 15px 0px 15px;
+    color: black;          
+}    
+
+form input[type="submit"]:hover{
+    background-color: rgb(37, 39, 131);
+    transition: 1.2s;
+}
+
+.alert-message {
+    margin: 24px 0 0;
+    color: red!important;
+}
